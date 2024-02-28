@@ -12,6 +12,8 @@
 		2DB2C45F2B8ED412008C16CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2C45E2B8ED412008C16CC /* ContentView.swift */; };
 		2DB2C4612B8ED414008C16CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2C4602B8ED414008C16CC /* Assets.xcassets */; };
 		2DB2C4642B8ED414008C16CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2C4632B8ED414008C16CC /* Preview Assets.xcassets */; };
+		2DB2C46D2B8ED48B008C16CC /* TextBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2C46C2B8ED48B008C16CC /* TextBasics.swift */; };
+		2DB2C46F2B8ED49C008C16CC /* AlignmentBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2C46E2B8ED49C008C16CC /* AlignmentBasics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		2DB2C4602B8ED414008C16CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB2C4632B8ED414008C16CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DB2C4652B8ED414008C16CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB2C46C2B8ED48B008C16CC /* TextBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasics.swift; sourceTree = "<group>"; };
+		2DB2C46E2B8ED49C008C16CC /* AlignmentBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentBasics.swift; sourceTree = "<group>"; };
+		2DB2C4702B8ED4B0008C16CC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 		2DB2C44C2B8ED412008C16CC = {
 			isa = PBXGroup;
 			children = (
+				2DB2C4702B8ED4B0008C16CC /* README.md */,
 				2DB2C4572B8ED412008C16CC /* SwiftUICheatSheet */,
 				2DB2C4582B8ED412008C16CC /* Packages */,
 				2DB2C4562B8ED412008C16CC /* Products */,
@@ -56,6 +62,7 @@
 		2DB2C4572B8ED412008C16CC /* SwiftUICheatSheet */ = {
 			isa = PBXGroup;
 			children = (
+				2DB2C46B2B8ED470008C16CC /* Basics */,
 				2DB2C45C2B8ED412008C16CC /* SwiftUICheatSheetApp.swift */,
 				2DB2C45E2B8ED412008C16CC /* ContentView.swift */,
 				2DB2C4602B8ED414008C16CC /* Assets.xcassets */,
@@ -79,6 +86,15 @@
 				2DB2C4632B8ED414008C16CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DB2C46B2B8ED470008C16CC /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2C46C2B8ED48B008C16CC /* TextBasics.swift */,
+				2DB2C46E2B8ED49C008C16CC /* AlignmentBasics.swift */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB2C46F2B8ED49C008C16CC /* AlignmentBasics.swift in Sources */,
 				2DB2C45F2B8ED412008C16CC /* ContentView.swift in Sources */,
 				2DB2C45D2B8ED412008C16CC /* SwiftUICheatSheetApp.swift in Sources */,
+				2DB2C46D2B8ED48B008C16CC /* TextBasics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
